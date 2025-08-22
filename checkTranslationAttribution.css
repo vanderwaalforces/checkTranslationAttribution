@@ -1,0 +1,62 @@
+/* General banner styling */
+.cTA_banner {
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 33px;
+    padding-left: 28px;
+    border-radius: 3px;
+    position: relative; /* For dismiss button positioning */
+    color: #ffffff;
+}
+
+/* Specific styles for each banner type */
+.cTA_info_talk {
+    background-color: #008000;
+}
+
+.cTA_info_talk1 {
+	background-color: #008000;
+}
+
+.cTA_warn_unattr {
+    background-color: #ff0000;
+}
+
+.cTA_info_date {
+    background-color: #008000;
+}
+
+.cTA_warn_date {
+    background-color: #ffa500;
+}
+
+/* docLink styling */
+.cTA_docLink {
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 2px;
+    right: 17px;
+    width: 20px;
+    height: 11px;
+    position: absolute;
+}
+
+/* Dismiss button styling */
+.cTA_dismiss {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    background: none;
+    border: none;
+    color: inherit; /* Match text color */
+    padding: 0px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 0 0 6px;
+}
+
+.cTA_link_tplt, .cTA_link_scut, .cTA_link_ctl {
+	color: #ffffff;
+	text-decoration: underline;
+}
